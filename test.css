@@ -2,9 +2,40 @@
   margin: 0;
   padding: 0;
 }
+
 .test{
     color: blue;
+    cursor: pointer;
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-around;       /*justify-content: shob rows related*/
+    /* justify-content: space-between; */
+    /* justify-content: center;                   */
+    /* justify-content: start; */
+    align-items: center;            /* align-items: shob colomns related */
+    /* flex-direction:column; */
+    height: 500px;
+    border: 2px solid gray;
     
+  }
 
 
+.box{
+  padding: 20px;
+  background-color: red;
+  width: 120px;
+  height: 120px;
 }
+
+.box2{
+  background-color: green;
+}
+
+.box3{
+  background-color: blue;
+}
+
+
+
